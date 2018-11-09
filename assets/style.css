@@ -1,0 +1,41 @@
+
+.rhe body {
+    background: url('img/texture.jpg');
+    font-family: Optima, sans-serif;
+    color: #555;
+}
+a{
+    color:inherit;
+}
+.rhe p{
+    line-height: 1.5;
+}
+.rhe li {
+    margin-left: 30px;
+    line-height: 1.8;
+}
+
+.rhe a.nav-link{
+    padding-right: 10px;
+}
+
+.rhe span.active{
+    display: inline-block;
+    font-weight: bold;
+      padding-right: 10px;
+      color: #7B1FA2;
+}
+
+
+.rhe .panel {
+    background-color: rgba(255, 255, 255, .95);
+    margin: 20px 0;
+    border: solid 2px white;
+    padding: 5px;
+}
+
+.rhe hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .02), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .02));
+}
