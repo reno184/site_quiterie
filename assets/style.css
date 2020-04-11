@@ -33,6 +33,16 @@
     background-image: linear-gradient(to right, rgba(0, 0, 0, .02), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .02));
 }
 
-.rhe.text-warning{
-    
+
+@media screen and (max-width: 576px)
+{
+    .rhe .nav-tabs .nav-link:focus,.rhe .nav-tabs .nav-link:hover,
+    .rhe .nav-tabs .nav-item.show .nav-link,.rhe .nav-tabs .nav-link.active
+    {
+        border-color: transparent;
+    }
+    .rhe .nav-tabs .nav-item
+    {
+        width: 100%;
+    }
 }
